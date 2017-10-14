@@ -1,0 +1,111 @@
+.captionOrange, .captionBlack {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange {
+	position: absolute;
+	left: 15%;
+	margin: 0;
+}
+.captionBlack {
+	font-size:16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover {
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+	background: url(../images/browser-icons.png);
+}
+
+.caption {
+	color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 1170px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+}
+.caption .box {
+	background-color: rgba(240, 184, 143, 0.6);
+	max-width: 860px;
+	padding: 15px 30px;
+	display: inline-block;
+}
+.caption h1 {
+	color: #ffffff;
+	font-size: 55px;
+	line-height: 65px;
+	text-shadow: 2px 0 1px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+}
+.caption p {
+	margin-top: 30px;
+}
+
+.jssora02l, .jssora02r {
+	background: url('../images/a02.png') no-repeat;
+	display: block;
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jssora02l { background-position: -11px -41px; }
+.jssora02r { background-position: -72px -41px; }
+.jssora02l:hover { background-position: -131px -41px; }
+.jssora02r:hover { background-position: -192px -41px; }
+.jssora02l.jssora02ldn { background-position: -251px -41px; }
+.jssora02r.jssora02rdn { background-position: -312px -41px; }
+
+.jssorb02 {
+	position: absolute;
+}
+.jssorb02 div, .jssorb02 div:hover, .jssorb02 .av {
+	background-color: rgba(233, 233, 233, 0.5);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorb02 div { background-color: rgba(233, 233, 233, 0.5); }
+.jssorb02 div:hover, .jssorb02 .av:hover { background-color: rgba(5, 118, 167, 0.9); }
+.jssorb02 .av { background-color: rgba(249, 167, 13, 1); }
+.jssorb02 .dn, .jssorb02 .dn:hover { background-color: rgba(0, 151, 82, 0.9); }
+
+.jssora02l, .jssora02r {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background: url(../images/a02.png) no-repeat;
+	overflow: hidden;
+}
+.jssora02l { background-position: -5px -35px; }
+.jssora02r { background-position: -65px -35px; }
+.jssora02l:hover { background-position: -125px -35px; }
+.jssora02r:hover { background-position: -185px -35px; }
+.jssora02l.jssora02ldn { background-position: -245px -35px; }
+.jssora02r.jssora02rdn { background-position: -305px -35px; }
